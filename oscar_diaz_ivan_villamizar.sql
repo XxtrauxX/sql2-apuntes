@@ -13,9 +13,6 @@ show tables;
 
 
 
-select p.apellido1, p.apellido2, al.id_asignatura 
-FROM persona p
-join alumno_se_matricula_asignatura al on p.id = al.id_alumno;
 
 
 SELECT p.apellido1, p.apellido2, p.nombre
